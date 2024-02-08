@@ -2,13 +2,16 @@ package com.example.opencv_android;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.widget.Toast;
 
 import org.opencv.android.OpenCVLoader;
 
+
 public class MainActivity extends AppCompatActivity {
 
+    @SuppressLint({"MissingInflatedId", "ClickableViewAccessibility"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,4 +23,5 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "Not initialized", Toast.LENGTH_SHORT).show();
         }
     }
+
 }
