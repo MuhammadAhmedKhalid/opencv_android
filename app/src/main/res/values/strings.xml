@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">opencv_android</string>
+    <string name="open_gallery_bttn_txt">OPEN GALLERY</string>
+    <string name="cropped_image_desc">Cropped Image</string>
+    <string name="choose_photo_from_device">CHOOSE PHOTO FROM DEVICE</string>
 </resources>
